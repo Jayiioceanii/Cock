@@ -1,13 +1,13 @@
  local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
     
     local Window = Rayfield:CreateWindow({
-        Name = "Aura | Evade",
+        Name = "Aura | Blox Fruits",
         LoadingTitle = "Aura",
         LoadingSubtitle = "by Aura Exploits",
         ConfigurationSaving = {
            Enabled = true,
            FolderName = nil, -- Create a custom folder for your hub/game
-           FileName = "Big Hub"
+           FileName = "Aura"
         },
         Discord = {
            Enabled = false,
@@ -31,6 +31,6 @@
     local Button = Tab:CreateButton({
        Name = "Roflux",
        Callback = function()
-        loadstring(game:HttpGet("https://roflux.net/scripts/games/" .. tostring(game.PlaceId) .. ".lua"))()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
        end,
     })
